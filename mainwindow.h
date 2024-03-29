@@ -22,6 +22,8 @@ private slots:
 
     void on_batdau_clicked();
 
+    void on_xephang_clicked();
+
 private:
     Ui::MainWindow *ui;
     Form* mForm;

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>Form</class>
- <widget class="QWidget" name="Form">
+ <class>DuKhachMainMenu</class>
+ <widget class="QWidget" name="DuKhachMainMenu">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -19,17 +19,14 @@
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>10</y>
-     <width>80</width>
-     <height>24</height>
+     <x>20</x>
+     <y>40</y>
+     <width>93</width>
+     <height>29</height>
     </rect>
    </property>
-   <property name="cursor">
-    <cursorShape>ArrowCursor</cursorShape>
-   </property>
    <property name="text">
-    <string>Trở về</string>
+    <string>Nghiax orz </string>
    </property>
   </widget>
  </widget>
