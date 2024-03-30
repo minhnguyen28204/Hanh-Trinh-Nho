@@ -12,7 +12,7 @@ class Form : public QWidget
     Q_OBJECT
 
 public:
-    explicit Form(QWidget *parent = nullptr);
+    explicit Form(QWidget *parent = nullptr, bool isS = false);
     ~Form();
 
 private slots:
@@ -21,6 +21,7 @@ private slots:
 
 private:
     Ui::Form *ui;
+    bool isStudent;
 };
 
 #endif // FORM_H

@@ -1,7 +1,6 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include "form.h"
-#include "dukhachmainmenu.h"
 #include <QPixmap>
 
 MainWindow::MainWindow(QWidget *parent)
@@ -19,7 +18,8 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_batdau_clicked()
 {
-    mForm = new Form(this);
+    bool isStudent = true;
+    mForm = new Form(this,isStudent);
     mForm->setWindowModality(Qt::WindowModal);
     mForm->show();
 }
@@ -27,8 +27,9 @@ void MainWindow::on_batdau_clicked()
 
 void MainWindow::on_xephang_clicked()
 {
-    DuKhachMainMenu *dukhachMainmenu = new DuKhachMainMenu(this);
-    dukhachMainmenu->setWindowModality(Qt::WindowModal);
-    dukhachMainmenu->show();
+    bool isStudent = false;
+    mForm = new Form(this,isStudent);
+    mForm->setWindowModality(Qt::WindowModal);
+    mForm->show();
 }
 
