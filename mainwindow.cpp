@@ -18,10 +18,10 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_batdau_clicked()
 {
-    bool isStudent = true;
-    mForm = new Form(this,isStudent);
-    mForm->setWindowModality(Qt::WindowModal);
-    mForm->show();
+   // bool isStudent = true;
+    //mForm = new Form(this,isStudent);
+   //mForm->setWindowModality(Qt::WindowModal);
+   // mForm->show();
 }
 
 
@@ -31,5 +31,11 @@ void MainWindow::on_xephang_clicked()
     mForm = new Form(this,isStudent);
     mForm->setWindowModality(Qt::WindowModal);
     mForm->show();
+}
+
+
+void MainWindow::on_batdau_pressed()
+{
+
 }
 

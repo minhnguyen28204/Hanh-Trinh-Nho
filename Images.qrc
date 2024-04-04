@@ -5,5 +5,8 @@
         <file>LOGO-01.png</file>
         <file>LOGO-02.png</file>
         <file>Images/Map.png</file>
+        <file>Images/background.jpg</file>
+        <file>Images/click.png</file>
+        <file>Images/click - light.png</file>
     </qresource>
 </RCC>
