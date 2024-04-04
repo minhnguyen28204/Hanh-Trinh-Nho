@@ -13,9 +13,17 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="autoFillBackground">
+   <bool>true</bool>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <property name="enabled">
     <bool>true</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#centralwidget{
+	background-image: url(:/Images/background.jpg)
+}</string>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout">
     <item>
@@ -24,25 +32,74 @@
        <bool>true</bool>
       </property>
       <property name="autoFillBackground">
-       <bool>true</bool>
+       <bool>false</bool>
       </property>
       <widget class="QWidget" name="ButtonHolder" native="true">
        <property name="geometry">
         <rect>
-         <x>520</x>
-         <y>290</y>
-         <width>581</width>
-         <height>291</height>
+         <x>60</x>
+         <y>330</y>
+         <width>861</width>
+         <height>271</height>
         </rect>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
        </property>
        <layout class="QHBoxLayout" name="horizontalLayout">
         <item>
-         <widget class="QPushButton" name="xephang">
+         <widget class="QPushButton" name="hocsinh">
           <property name="sizePolicy">
-           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
             <horstretch>0</horstretch>
             <verstretch>0</verstretch>
            </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>Segoe UI Semibold</family>
+            <pointsize>28</pointsize>
+            <italic>false</italic>
+            <bold>true</bold>
+            <underline>false</underline>
+            <strikeout>false</strikeout>
+            <kerning>false</kerning>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	border-image: url(:/Images/click.png);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+	font: bold;
+}
+
+QPushButton:hover {
+    
+	border-image: url(:/Images/click - light.png);
+    background-repeat: no-repeat;
+	font: bold;
+}</string>
+          </property>
+          <property name="text">
+           <string>Học sinh</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="dukhach">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="autoFillBackground">
+           <bool>false</bool>
           </property>
           <property name="styleSheet">
            <string notr="true">QPushButton {
@@ -65,58 +122,6 @@ QPushButton:hover {
         </item>
        </layout>
       </widget>
-      <widget class="QLabel" name="label_2">
-       <property name="geometry">
-        <rect>
-         <x>-10</x>
-         <y>-10</y>
-         <width>1281</width>
-         <height>731</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">background-image: url(:/Images/background.jpg);</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
-      <widget class="QPushButton" name="batdau">
-       <property name="geometry">
-        <rect>
-         <x>260</x>
-         <y>370</y>
-         <width>171</width>
-         <height>171</height>
-        </rect>
-       </property>
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">QPushButton {
-	border-image: url(:/Images/click.png);
-    background-repeat: no-repeat;
-    width: 100px;
-    height: 100px;
-}
-
-QPushButton:hover {
-    
-	border-image: url(:/Images/click - light.png);
-    background-repeat: no-repeat;
-}</string>
-       </property>
-       <property name="text">
-        <string>Học sinh</string>
-       </property>
-      </widget>
-      <zorder>label_2</zorder>
-      <zorder>ButtonHolder</zorder>
-      <zorder>batdau</zorder>
      </widget>
     </item>
    </layout>
@@ -125,9 +130,9 @@ QPushButton:hover {
  <resources/>
  <connections>
   <connection>
-   <sender>batdau</sender>
+   <sender>hocsinh</sender>
    <signal>pressed()</signal>
-   <receiver>batdau</receiver>
+   <receiver>hocsinh</receiver>
    <slot>showNormal()</slot>
    <hints>
     <hint type="sourcelabel">

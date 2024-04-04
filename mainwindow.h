@@ -19,12 +19,9 @@ public:
     ~MainWindow();
 
 private slots:
+    void on_dukhach_clicked();
 
-    void on_batdau_clicked();
-
-    void on_xephang_clicked();
-
-    void on_batdau_pressed();
+    void on_hocsinh_clicked();
 
 private:
     Ui::MainWindow *ui;

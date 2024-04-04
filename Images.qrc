@@ -8,5 +8,28 @@
         <file>Images/background.jpg</file>
         <file>Images/click.png</file>
         <file>Images/click - light.png</file>
+        <file>Images/District/background.jpg</file>
+        <file>Images/District/text map.png</file>
+        <file>Images/District/nochosenmap.png</file>
+        <file>Images/District/map-1.png</file>
+        <file>Images/District/map-2.png</file>
+        <file>Images/District/map-3.png</file>
+        <file>Images/District/map-4.png</file>
+        <file>Images/District/map-5.png</file>
+        <file>Images/District/map-6.png</file>
+        <file>Images/District/map-7.png</file>
+        <file>Images/District/map-8.png</file>
+        <file>Images/District/map-9.png</file>
+        <file>Images/District/map-10.png</file>
+        <file>Images/District/map-11.png</file>
+        <file>Images/District/map-12.png</file>
+        <file>Images/District/map-13.png</file>
+        <file>Images/District/map-14.png</file>
+        <file>Images/District/map-15.png</file>
+        <file>Images/District/map-16.png</file>
+        <file>Images/District/map-17.png</file>
+        <file>Images/District/map-18.png</file>
+        <file>Images/District/map-19.png</file>
+        <file>Images/District/map-20.png</file>
     </qresource>
 </RCC>

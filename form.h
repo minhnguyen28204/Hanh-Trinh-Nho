@@ -4,7 +4,7 @@
 #include <QWidget>
 
 namespace Ui {
-class Form;
+class Map;
 }
 
 class Form : public QWidget
@@ -17,11 +17,14 @@ public:
 
 private slots:
 
-    void on_pushButton_clicked();
+    void on_pushButton_2_clicked();
+
+    void on_pushButton_3_clicked();
 
 private:
-    Ui::Form *ui;
+    Ui::Map *ui;
     bool isStudent;
+    int currentWidget;
 };
 
 #endif // FORM_H
