@@ -11,6 +11,8 @@ MainWindow::MainWindow(QWidget *parent)
     ui->setupUi(this);
     this->setWindowTitle("Hành trình nhỏ");
     QFontDatabase::addApplicationFont("fonts/iCielBCCubano-Normal.otf");
+    ui->dukhach->setFont(QFont("iCielBCCubano-Normal", 25));
+    ui->hocsinh->setFont(QFont("iCielBCCubano-Normal", 25));
 }
 
 MainWindow::~MainWindow()
