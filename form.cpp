@@ -5,9 +5,10 @@
 #include <QFont>
 
 void Form::getDistrictWidget(District::ID id){
+    if (id == District::ID::Quan4) ui->stackedWidget->setCurrentWidget(ui->Quan5);
+    if (id == District::ID::CanGio) ui->stackedWidget->setCurrentWidget(ui->CanGio);
+    if (id == District::ID::Quan3) ui->stackedWidget->setCurrentWidget(ui->Quan3);
     if (id == District::ID::HocMon) ui->stackedWidget->setCurrentWidget(ui->HocMon);
-    if (id == District::ID::BinhChanh) ui->stackedWidget->setCurrentWidget(ui->BinhChanh);
-    if (id == District::ID::BinhTan) ui->stackedWidget->setCurrentWidget(ui->TanBinhBinhTan);
 }
 
 Form::Form(QWidget *parent, bool isS)
