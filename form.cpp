@@ -1,7 +1,14 @@
 #include "form.h"
 #include "ui_form.h"
+#include "ResourcesIdentifier.h"
 #include <QStackedWidget>
 #include <QFont>
+
+void Form::getDistrictWidget(District::ID id){
+    if (id == District::ID::HocMon) ui->stackedWidget->setCurrentWidget(ui->HocMon);
+    if (id == District::ID::BinhChanh) ui->stackedWidget->setCurrentWidget(ui->BinhChanh);
+    if (id == District::ID::BinhTan) ui->stackedWidget->setCurrentWidget(ui->TanBinhBinhTan);
+}
 
 Form::Form(QWidget *parent, bool isS)
     : QWidget(parent)
@@ -27,9 +34,15 @@ void Form::on_pushButton_2_clicked()
 
 void Form::on_pushButton_3_clicked()
 {
-    currentWidget--;
-    if (currentWidget < 0){
-        currentWidget = 1;
+    getDistrictWidget(District::ID::HocMon);
+}
+
+
+void Form::on_pushButton_4_clicked()
+{
+    currentWidget++;
+    if (currentWidget > 19){
+        currentWidget = 0;
     }
     ui->stackedWidget->setCurrentIndex(currentWidget);
 }

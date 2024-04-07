@@ -2,6 +2,7 @@
 #define FORM_H
 
 #include <QWidget>
+#include "ResourcesIdentifier.h"
 
 namespace Ui {
 class Map;
@@ -21,10 +22,14 @@ private slots:
 
     void on_pushButton_3_clicked();
 
+    void on_pushButton_4_clicked();
+
 private:
     Ui::Map *ui;
     bool isStudent;
     int currentWidget;
+
+    void getDistrictWidget(District::ID id);
 };
 
 #endif // FORM_H

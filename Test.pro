@@ -14,6 +14,7 @@ SOURCES += \
     mainwindow.cpp
 
 HEADERS += \
+    ResourcesIdentifier.h \
     form.h \
     mainwindow.h
 

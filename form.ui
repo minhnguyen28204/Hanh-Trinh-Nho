@@ -125,7 +125,7 @@ QPushButton:hover {
 }</string>
        </property>
        <property name="text">
-        <string>Kế trước</string>
+        <string>HocMon</string>
        </property>
       </widget>
      </item>
@@ -199,31 +199,10 @@ QPushButton:hover {
      </rect>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>18</number>
     </property>
-    <widget class="QWidget" name="page">
-     <widget class="QLabel" name="label_2">
-      <property name="geometry">
-       <rect>
-        <x>60</x>
-        <y>50</y>
-        <width>521</width>
-        <height>601</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="pixmap">
-       <pixmap resource="Images.qrc">:/Images/District/nochosenmap.png</pixmap>
-      </property>
-      <property name="scaledContents">
-       <bool>true</bool>
-      </property>
-     </widget>
-    </widget>
-    <widget class="QWidget" name="page_2">
-     <widget class="QLabel" name="label_3">
+    <widget class="QWidget" name="CanGio">
+     <widget class="QLabel" name="aar_4">
       <property name="geometry">
        <rect>
         <x>60</x>
@@ -237,6 +216,384 @@ QPushButton:hover {
       </property>
       <property name="pixmap">
        <pixmap resource="Images.qrc">:/Images/District/map-1.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Quan10">
+     <widget class="QLabel" name="aay">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>50</y>
+        <width>521</width>
+        <height>601</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="Images.qrc">:/Images/District/map-10.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="TanBinhBinhTan">
+     <widget class="QLabel" name="TanBinh">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>50</y>
+        <width>521</width>
+        <height>601</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="Images.qrc">:/Images/District/map-11.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Quan1">
+     <widget class="QLabel" name="aaq">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>50</y>
+        <width>521</width>
+        <height>601</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="Images.qrc">:/Images/District/map-13.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="ThuDuc_2">
+     <widget class="QLabel" name="aar_2">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>50</y>
+        <width>521</width>
+        <height>601</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="Images.qrc">:/Images/District/map-17.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="GoVap">
+     <widget class="QLabel" name="aal">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>50</y>
+        <width>521</width>
+        <height>601</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="Images.qrc">:/Images/District/map-18.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="BinhChanh">
+     <widget class="QLabel" name="aar">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>50</y>
+        <width>521</width>
+        <height>601</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="Images.qrc">:/Images/District/map-2.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="CuChi">
+     <widget class="QLabel" name="aaj">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>50</y>
+        <width>521</width>
+        <height>601</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="Images.qrc">:/Images/District/map-20.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Quan8">
+     <widget class="QLabel" name="aac">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>50</y>
+        <width>521</width>
+        <height>601</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="Images.qrc">:/Images/District/map-4.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Quan3">
+     <widget class="QLabel" name="arr">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>50</y>
+        <width>521</width>
+        <height>601</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="Images.qrc">:/Images/District/map-12.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Quan7">
+     <widget class="QLabel" name="aad">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>50</y>
+        <width>521</width>
+        <height>601</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="Images.qrc">:/Images/District/map-5.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="ThuDuc">
+     <widget class="QLabel" name="aaaa">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>50</y>
+        <width>521</width>
+        <height>601</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="Images.qrc">:/Images/District/map-6.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Quan5">
+     <widget class="QLabel" name="aae">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>50</y>
+        <width>521</width>
+        <height>601</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="Images.qrc">:/Images/District/map-7.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="NhaBe">
+     <widget class="QLabel" name="aab">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>50</y>
+        <width>521</width>
+        <height>601</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="Images.qrc">:/Images/District/map-3.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="HocMon">
+     <widget class="QLabel" name="aaa">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>50</y>
+        <width>521</width>
+        <height>601</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="Images.qrc">:/Images/District/map-19.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="PhuNhuan">
+     <widget class="QLabel" name="aar_3">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>50</y>
+        <width>521</width>
+        <height>601</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="Images.qrc">:/Images/District/map-14.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Quan6">
+     <widget class="QLabel" name="aaf">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>50</y>
+        <width>521</width>
+        <height>601</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="Images.qrc">:/Images/District/map-8.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Quan11">
+     <widget class="QLabel" name="aag">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>50</y>
+        <width>521</width>
+        <height>601</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="Images.qrc">:/Images/District/map-9.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="BinhThanh">
+     <widget class="QLabel" name="aah">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>50</y>
+        <width>521</width>
+        <height>601</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="Images.qrc">:/Images/District/map-15.png</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
